@@ -129,25 +129,62 @@ ul .registr {
   color: #00000080;
   margin-bottom: 30px;
 }
+.sect_paragrph {
+  margin-bottom: 40px;
+}
 .mainimg {
   max-width: 550px;
   height: 500px;
 }
 .morevideo button {
-  /* position: relative; */
-  width: 130px;
-  height: 55px;
+  position: absolute;
+  width: 180px;
+  height: 65px;
   font-size: 20px;
   background-color: #2e7af4;
   color: white;
   border: 0px;
   cursor: pointer;
+  padding-left: 30px;
 }
 .morevideo img {
-  /* position: absolute; */
+  position: relative;
   background-color: #e3edfd;
-  width: 50px;
+  width: 40px;
   padding: 8px;
   border-radius: 50px;
-  /* left: 100px; */
+  left: 3px;
+  margin-top: 10px;
+}
+.section_user {
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 100%;
+  background-color: #f8f8f8;
+}
+.section_user h3 {
+  color: #2e7af4;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.section_user h1 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 45px;
+}
+.section_img {
+  display: flex;
+  justify-content: space-between;
+}
+.section_img img {
+  border-radius: 50%;
+  width: 180px;
+}
+.section_user h4 {
+  color: #555555;
+  width: 20px;
+  margin-top: 15px;
+  text-align: center;
 }
