@@ -35,22 +35,30 @@ li {
 }
 .logo img {
   position: absolute;
-  margin: 0px 4px;
-  padding: 10px;
+  margin: 0px 5px;
+  padding: 6px;
 }
-.logo span {
+.logoheader {
   position: relative;
   background-color: blue;
   width: 40px;
   display: inline-block;
   height: 40px;
 }
-.logo h1 {
+.headername {
   padding-left: 10px;
   color: #2e7af4;
-  font-size: 30px;
+  font-size: 18px;
   margin-top: 2px;
   display: inline-block;
+}
+.headertitle {
+  background: none;
+  font-size: 25px;
+  font-weight: normal;
+}
+.navbarhome {
+  font-weight: bold;
 }
 .navigation a {
   text-decoration: none;
@@ -73,10 +81,10 @@ ul .registr {
   margin-top: 140px;
 }
 .header_banner h1 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-size: 80px;
-  width: 515px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 75px;
+  width: 460px;
 }
 
 .header_banner h2 {
@@ -85,12 +93,14 @@ ul .registr {
   font-weight: 700;
 }
 .header_banner h3 {
-  font-size: 18px;
+  font-size: 17px;
   width: 496px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  font-weight: 100;
 }
+
 .header_banner button {
-  font-size: 18px;
+  font-size: 15px;
   color: white;
   background: #2e7af4;
   padding: 10px 25px;
@@ -98,8 +108,9 @@ ul .registr {
   outline: none;
   border: 1px solid;
 }
-
-/* sectioninfo */
+.text {
+  padding: 10px;
+}
 .section_container {
   max-width: 1170px;
   margin: 0 auto;
@@ -111,7 +122,8 @@ ul .registr {
 }
 .sect_info {
   margin-top: -100px;
-  max-width: 650px;
+  max-width: 571px;
+  padding: 10px;
 }
 .sect_info h3 {
   margin-bottom: 10px;
