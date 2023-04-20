@@ -3,12 +3,18 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.header_absolute {
-  position: absolute;
-  width: 100%;
+a {
+  text-decoration: none;
 }
 header {
   position: relative;
+}
+header > .container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translatey(-44%);
+  top: 44%;
 }
 .container {
   max-width: 1170px;
@@ -24,6 +30,8 @@ header {
   padding: 20px 0;
   background-color: #ffffff;
   width: 100%;
+  position: absolute;
+  top: 0;
 }
 .navigation,
 ul,
@@ -130,7 +138,7 @@ ul .registr {
 }
 .sect_info h3 {
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 18px;
   color: #2e7af4;
 }
 .sect_info h1 {
@@ -197,7 +205,7 @@ ul .registr {
 }
 .section_user h3 {
   color: #2e7af4;
-  font-size: 20px;
+  font-size: 18px;
   padding-top: 20px;
 }
 .section_user h1 {
@@ -229,7 +237,6 @@ ul .registr {
 }
 .childrens_sect {
   display: flex;
-  /* justify-content: space-between; */
   padding-top: 110px;
   background-color: white;
 }
@@ -249,7 +256,7 @@ ul .registr {
 }
 .imgsect_info > span {
   color: rgb(30, 171, 223);
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
 }
 .imgsect_info h3 {
@@ -270,8 +277,6 @@ ul .registr {
 }
 .platform_sect {
   margin-top: 95px;
-  background-color: #f8f8f8;
-  max-height: 708px;
 }
 .platform_title {
   padding-top: 45px;
@@ -279,7 +284,7 @@ ul .registr {
 }
 .platform_title h3 {
   color: #2e7af4;
-  font-size: 23px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 .platform_title h1 {
@@ -340,6 +345,9 @@ ul .registr {
   padding: 60px 0px;
   margin-top: 50px;
 }
+.platform_bg {
+  background-color: #f8f8f8;
+}
 .platformsect_lastflex {
   align-items: center;
   display: flex;
@@ -361,4 +369,107 @@ ul .registr {
   text-decoration: none;
   padding: 20px 44px;
   display: inline-block;
+}
+.studentsect_title {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 45px;
+}
+.studentsect_title h3 {
+  font-size: 18px;
+  color: #2e7af4;
+  margin-bottom: 5px;
+}
+.studentsect_title h1 {
+  font-size: 50px;
+  color: #000000;
+}
+.studentsect_imgs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.studentsect_item {
+  width: 33.333%;
+  padding: 0px 10px;
+}
+.studentsect_item > img {
+  width: 100%;
+  display: block;
+  margin-bottom: 11px;
+  border-radius: 7px 7px 0px 0px;
+}
+.studentsect_item_title h3 {
+  font-style: italic;
+  font-size: 21px;
+  color: #000000;
+}
+.studentsect_item_title a {
+  position: absolute;
+  background-color: #ef6464;
+  padding: 3px 11px;
+  color: #fff;
+  font-size: 15px;
+  display: inline-block;
+  bottom: 0;
+  right: 0;
+}
+.studentsect_item_title {
+  position: relative;
+  padding-left: 97px;
+  margin-bottom: 20px;
+}
+.blue_line {
+  width: 80px;
+  border: 2px solid blue;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 11px;
+}
+.student_moreinfo {
+  font-size: 17px;
+  color: #a5a5a5;
+  margin-bottom: 14px;
+}
+.student_moreinfo a {
+  font-size: 20px;
+  color: #2e7af4;
+  font-weight: bold;
+}
+.studentsect_admin {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 13px;
+}
+.studentsect_admin > img {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+}
+.student_name h1 {
+  font-size: 21px;
+  color: #000000;
+}
+.student_name span {
+  font-size: 16px;
+  color: #a0a0a0;
+  text-align: right;
+  display: block;
+}
+.studentsect_item:hover {
+  box-shadow: 0 4px 4px -2px gray;
+  transition: box-shadow 0.5s;
+}
+.studet_viewmore a {
+  font-size: 20px;
+  background-color: #2e7af4;
+  padding: 11px 22px;
+  color: #fff;
+  display: inline-block;
+}
+.studet_viewmore {
+  text-align: center;
 }
