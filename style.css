@@ -270,6 +270,8 @@ ul .registr {
 }
 .platform_sect {
   margin-top: 95px;
+  background-color: #f8f8f8;
+  max-height: 708px;
 }
 .platform_title {
   padding-top: 45px;
@@ -288,13 +290,33 @@ ul .registr {
 .rectangle {
   width: 100px;
   height: 100px;
-  background-color: green;
+  background-color: #ffeeb0;
   font-size: 45px;
   text-align: center;
   padding-top: 24px;
-  color: yellow;
+  color: #c8af56;
   display: inline-block;
   margin-bottom: 15px;
+}
+.rectangletwo {
+  background-color: #d6f0ff;
+  color: #59a6d1;
+}
+.rectanglethree {
+  background-color: #c1d9ff;
+  color: #7b9bce;
+}
+.rectanglefour {
+  background-color: #d4fffc;
+  color: #53a9a3;
+}
+.rectanglefive {
+  background-color: #ffe4e4;
+  color: #bc8181;
+}
+.rectanglesix {
+  background-color: #ffcdf1;
+  color: #b973a5;
 }
 .platform_rectangle {
   display: flex;
@@ -316,6 +338,7 @@ ul .registr {
 .platformsect_last {
   background-color: #cbf3f3;
   padding: 60px 0px;
+  margin-top: 50px;
 }
 .platformsect_lastflex {
   align-items: center;
