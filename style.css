@@ -473,3 +473,48 @@ ul .registr {
 .studet_viewmore {
   text-align: center;
 }
+.last_sect {
+  margin-top: 95px;
+  display: flex;
+}
+.contact_title h3 {
+  font-size: 18px;
+  color: #2e7af4;
+  margin-bottom: 5px;
+}
+.contact_title h1 {
+  font-size: 50px;
+  color: #000000;
+  margin-bottom: 14px;
+}
+.contact_title span {
+  font-size: 17px;
+  color: #a5a5a5;
+}
+.nextstep_name > h1 {
+  font-size: 50px;
+  color: #2e7af4;
+  margin-top: 45px;
+  max-width: 352px;
+}
+.first_number {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.firstnumber_num {
+  font-size: 30px;
+  color: #2e7af4;
+  background-color: #c1d9ff;
+  padding: 13px 16px;
+  display: inline-block;
+}
+.first_number > span {
+  margin-left: 12px;
+  color: #a5a5a5;
+  font-size: 17px;
+  display: inline-block;
+  width: 437px;
+}
+.sect_navbar {
+  margin-left: 94px;
+}
