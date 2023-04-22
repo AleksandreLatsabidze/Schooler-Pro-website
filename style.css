@@ -33,9 +33,7 @@ header > .container {
   position: absolute;
   top: 0;
 }
-.navigation,
-ul,
-li {
+.navigation ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -70,6 +68,9 @@ li {
 }
 .navbarhome {
   font-weight: bold;
+}
+.navigation nav ul {
+  display: flex;
 }
 .navigation a {
   text-decoration: none;
@@ -589,4 +590,92 @@ ul .registr {
   border: 0;
   cursor: pointer;
   margin-top: 25px;
+}
+footer {
+  background-color: #1e2734;
+  margin-top: 45px;
+}
+.footer {
+  padding: 45px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.schooler_logo {
+  display: flex;
+  margin-bottom: 15px;
+}
+.footerimg {
+  position: relative;
+  left: -6px;
+}
+.schooler_logo h1 {
+  font-size: 30px;
+  color: #fff;
+}
+.schooler_logo h1 span {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 100;
+}
+.footerlogo_text {
+  color: #e1e1e1;
+  font-size: 20px;
+  max-width: 269px;
+  display: block;
+}
+.footer_icon h2 {
+  font-size: 20px;
+  color: #fff;
+  margin: 14px 0px;
+}
+.social_icon i {
+  width: 36px;
+  height: 36px;
+  background-color: #fff;
+  font-size: 25px;
+  text-align: center;
+  line-height: 36px;
+  margin-right: 7px;
+}
+.company_list h3 {
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+.company_list li a {
+  color: #fff;
+}
+.company_list li {
+  display: block;
+  margin-bottom: 12px;
+}
+.form_gettouch h1 {
+  font-size: 21px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.form_gettouch input[type="text"] {
+  outline: none;
+  padding: 14px 10px;
+}
+.form_gettouch input[type="submit"] {
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  background-color: #2e7af4;
+  padding: 6px 8px;
+  max-width: 100px;
+  margin-top: 10px;
+}
+.form_gettouch form {
+  display: flex;
+  flex-direction: column;
+}
+.footer_lasttext {
+  border-top: 1px solid #ccc;
+  text-align: center;
+  font-size: 14px;
+  color: #e1e1e1;
+  padding: 10px;
 }
