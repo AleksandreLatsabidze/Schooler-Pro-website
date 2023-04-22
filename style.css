@@ -478,12 +478,12 @@ ul .registr {
   display: flex;
 }
 .contact_title h3 {
-  font-size: 18px;
+  font-size: 17px;
   color: #2e7af4;
   margin-bottom: 5px;
 }
 .contact_title h1 {
-  font-size: 50px;
+  font-size: 47px;
   color: #000000;
   margin-bottom: 14px;
 }
@@ -492,14 +492,29 @@ ul .registr {
   color: #a5a5a5;
 }
 .nextstep_name > h1 {
-  font-size: 50px;
+  font-size: 47px;
   color: #2e7af4;
-  margin-top: 45px;
+  margin-top: 30px;
   max-width: 352px;
+  margin-bottom: 35px;
 }
 .first_number {
-  margin-top: 40px;
-  margin-bottom: 80px;
+  height: 120px;
+  position: relative;
+}
+.first_number::before {
+  content: "";
+  border-left: 2px solid #2e7af4;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 31px;
+}
+.first_number:last-child::before {
+  display: none;
+}
+.first_number:last-child {
+  height: initial;
 }
 .firstnumber_num {
   font-size: 30px;
@@ -507,6 +522,7 @@ ul .registr {
   background-color: #c1d9ff;
   padding: 13px 16px;
   display: inline-block;
+  position: relative;
 }
 .first_number > span {
   margin-left: 12px;
@@ -515,6 +531,62 @@ ul .registr {
   display: inline-block;
   width: 437px;
 }
-.sect_navbar {
-  margin-left: 94px;
+.lastsect_width {
+  width: 50%;
+  padding-right: 15px;
+}
+.form_inputs {
+  width: 50%;
+}
+.forminput h3 {
+  color: #000000;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#contactform {
+  background-color: #f8f8f8;
+  padding: 30px 25px;
+}
+.forminput input {
+  height: 40px;
+  width: 100%;
+  font-size: 14px;
+  padding: 22px 19px;
+  outline: none;
+  border: 0;
+}
+.forminput {
+  margin-bottom: 20px;
+}
+#user_role {
+  width: 100%;
+  font-size: 14px;
+  padding: 11px 18px;
+  color: #7d7979;
+  border: 0;
+}
+#your_strength {
+  width: 100%;
+  font-size: 14px;
+  padding: 11px 18px;
+  color: #7d7979;
+  outline: none;
+  border: 0;
+}
+.forminput_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.forminput_center {
+  width: 48%;
+}
+#contactform button {
+  background-color: #2e7af4;
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 37px;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  margin-top: 25px;
 }
