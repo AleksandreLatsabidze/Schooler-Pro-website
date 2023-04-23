@@ -276,6 +276,9 @@ ul .registr {
   color: #00000080;
   width: 579px;
 }
+.first_sect {
+  margin-top: 100px;
+}
 .platform_sect {
   margin-top: 95px;
 }
@@ -679,4 +682,61 @@ footer {
   font-size: 14px;
   color: #e1e1e1;
   padding: 10px;
+}
+/* internal page */
+header {
+  position: initial;
+}
+.navbar {
+  position: initial;
+}
+.studentsects {
+  background-color: #e4f4fb;
+  padding: 1px;
+}
+.studentsect_title {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.initial_navbar ul {
+  list-style: none;
+  display: flex;
+  border-bottom: 2px solid #2e7af4;
+  font-size: 19px;
+  margin-top: 55px;
+}
+.initial_navbar {
+  padding-bottom: 35px;
+  margin: 0px 10px;
+}
+.initial_navbar li {
+  margin: 0px 19px;
+  margin-bottom: 6px;
+}
+.initial_navbar li:first-child {
+  margin-left: 0px;
+}
+.initial_navbar a {
+  color: #7483eafa;
+}
+.initial_navbar a:hover {
+  color: #013992;
+}
+.for_students {
+  display: flex;
+  margin-bottom: 35px;
+}
+.back_btn {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+}
+.back_btn a {
+  background-color: #2e7af4;
+  padding: 11px 25px;
+  color: #fff;
+}
+
+footer {
+  margin-top: 85px;
 }
