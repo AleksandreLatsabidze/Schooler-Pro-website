@@ -628,7 +628,7 @@ footer {
   color: #fff;
   margin: 14px 0px;
 }
-.social_icon i {
+.social_icon a > i {
   width: 36px;
   height: 36px;
   background-color: #fff;
@@ -636,6 +636,7 @@ footer {
   text-align: center;
   line-height: 36px;
   margin-right: 7px;
+  color: #000000;
 }
 .company_list h3 {
   color: #ffffff;
