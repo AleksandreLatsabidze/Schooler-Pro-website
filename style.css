@@ -14,7 +14,8 @@ header > .container {
   left: 0;
   right: 0;
   transform: translatey(-44%);
-  top: 44%;
+  top: 50%;
+  z-index: 3;
 }
 .container {
   max-width: 1170px;
@@ -91,7 +92,7 @@ ul .registr {
   max-width: 685px;
   width: 100%;
   position: relative;
-  margin-top: 140px;
+
   margin-left: -8px;
 }
 .header_banner h1 {
@@ -698,6 +699,9 @@ header {
   margin-top: 60px;
   margin-bottom: 50px;
 }
+.studentsect_item {
+  margin-bottom: 35px;
+}
 .initial_navbar ul {
   list-style: none;
   display: flex;
@@ -725,6 +729,8 @@ header {
 .for_students {
   display: flex;
   margin-bottom: 35px;
+  width: 100%;
+  flex-wrap: wrap;
 }
 .back_btn {
   text-align: center;
@@ -739,4 +745,22 @@ header {
 
 footer {
   margin-top: 85px;
+}
+
+.flexslider {
+  height: 790px;
+}
+.flexslider .slides img {
+  height: 790px;
+  object-fit: cover;
+}
+.flex-control-nav {
+  bottom: 15px;
+  z-index: 2;
+}
+.flex-control-paging li a.flex-active {
+  background: #72a7fb;
+}
+.flex-control-paging li a {
+  background: #d1d1d1;
 }

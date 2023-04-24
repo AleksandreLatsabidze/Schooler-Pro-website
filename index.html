@@ -8,7 +8,29 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
     />
+
+    <!-- flexslider -->
+
+    <link rel="stylesheet" href="flexslide/flexslider.css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- FlexSlider -->
+    <script defer src="flexslide/jquery.flexslider.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".flexslider").flexslider({
+          animation: "fade",
+          directionNav: false,
+          slideshow: false,
+        });
+      });
+    </script>
+
     <link rel="stylesheet" href="style.css" />
+
     <title>Schooler Pro</title>
   </head>
   <body>
@@ -61,7 +83,22 @@
         </div>
       </div>
 
-      <img src="img/Banner.png" width="100%" alt="mainimg" />
+      <!-- slider-->
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <img src="img/Banner.png" />
+          </li>
+          <li>
+            <img src="img/bannertwo.png" />
+          </li>
+          <li>
+            <img src="img/bannerthree.jpg" />
+          </li>
+        </ul>
+      </div>
+
+      <!-- and slider-->
     </header>
     <section class="first_sect">
       <div class="container">
