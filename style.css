@@ -734,9 +734,7 @@ footer {
   font-family: "Montserrat", sans-serif;
 }
 /* internal page */
-header {
-  position: initial;
-}
+
 .navbar {
   position: initial;
 }
