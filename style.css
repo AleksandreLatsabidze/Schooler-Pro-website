@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Montserrat:wght@200&family=Open+Sans:wght@300&family=Roboto:ital,wght@1,300&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -61,6 +62,7 @@ header > .container {
   font-size: 18px;
   margin-top: 2px;
   display: inline-block;
+  font-family: "Montserrat", sans-serif;
 }
 .headertitle {
   background: none;
@@ -77,6 +79,7 @@ header > .container {
   text-decoration: none;
   color: #2e7af4;
   font-size: 18px;
+  font-family: "Roboto", sans-serif;
 }
 ul .registr {
   color: white;
@@ -100,6 +103,7 @@ ul .registr {
   margin-bottom: 5px;
   font-size: 75px;
   width: 460px;
+  font-family: "Roboto", sans-serif;
 }
 
 .header_banner h2 {
@@ -107,12 +111,14 @@ ul .registr {
   color: #2e7af4;
   font-size: 20px;
   font-weight: 700;
+  font-family: "Open Sans", sans-serif;
 }
 .header_banner h3 {
   font-size: 17px;
   width: 500px;
   margin-bottom: 30px;
   font-weight: 100;
+  font-family: "Open Sans", sans-serif;
 }
 
 .header_banner button {
@@ -123,6 +129,7 @@ ul .registr {
   cursor: pointer;
   outline: none;
   border: 1px solid;
+  font-family: "Roboto", sans-serif;
 }
 .text {
   padding: 10px;
@@ -142,17 +149,20 @@ ul .registr {
   margin-bottom: 10px;
   font-size: 18px;
   color: #2e7af4;
+  font-family: "Open Sans", sans-serif;
 }
 .sect_info h1 {
   font-size: 50px;
   color: #000000;
   font-weight: bold;
   margin-bottom: 25px;
+  font-family: "Roboto", sans-serif;
 }
 .paragraph {
   font-size: 20px;
   color: #00000080;
   margin-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
 }
 .sect_paragrph {
   margin-bottom: 40px;
@@ -188,6 +198,7 @@ ul .registr {
   border: 0px;
   cursor: pointer;
   padding-left: 35px;
+  font-family: "Roboto", sans-serif;
 }
 .morevideo img {
   position: relative;
@@ -209,11 +220,13 @@ ul .registr {
   color: #2e7af4;
   font-size: 18px;
   padding-top: 20px;
+  font-family: "Open Sans", sans-serif;
 }
 .section_user h1 {
   color: #000000;
   font-weight: bold;
   font-size: 50px;
+  font-family: "Roboto", sans-serif;
 }
 .section_img {
   display: flex;
@@ -236,6 +249,7 @@ ul .registr {
   margin-top: 15px;
   text-align: center;
   margin-bottom: 30px;
+  font-family: "Lato", sans-serif;
 }
 .childrens_sect {
   display: flex;
@@ -260,22 +274,26 @@ ul .registr {
   color: rgb(30, 171, 223);
   font-size: 22px;
   font-weight: bold;
+  font-family: "Open Sans", sans-serif;
 }
 .imgsect_info h3 {
   font-size: 46px;
   color: #000000;
   margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
 }
 .imgsect_text {
   margin-bottom: 73px;
   width: 552px;
   font-size: 20px;
   color: #00000080;
+  font-family: "Open Sans", sans-serif;
 }
 .imgsect_lasttext {
   font-size: 20px;
   color: #00000080;
   width: 579px;
+  font-family: "Open Sans", sans-serif;
 }
 .first_sect {
   margin-top: 100px;
@@ -291,11 +309,13 @@ ul .registr {
   color: #2e7af4;
   font-size: 20px;
   margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
 }
 .platform_title h1 {
   font-size: 50px;
   max-width: 591px;
   margin: 0 auto;
+  font-family: "Roboto", sans-serif;
 }
 .rectangle {
   width: 100px;
@@ -344,6 +364,7 @@ ul .registr {
   max-width: 297px;
   font-size: 20px;
   margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
 }
 .platformsect_last {
   background-color: #cbf3f3;
@@ -362,11 +383,13 @@ ul .registr {
   color: #2e7af4;
   font-size: 20px;
   margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
 }
 .platformsect_lastflex h1 {
   font-size: 40px;
   color: #000000;
   max-width: 652px;
+  font-family: "Roboto", sans-serif;
 }
 .platformsect_lastflex a {
   color: #ffffff;
@@ -374,6 +397,7 @@ ul .registr {
   text-decoration: none;
   padding: 20px 44px;
   display: inline-block;
+  font-family: "Roboto", sans-serif;
 }
 .studentsect_title {
   text-align: center;
@@ -384,10 +408,12 @@ ul .registr {
   font-size: 18px;
   color: #2e7af4;
   margin-bottom: 5px;
+  font-family: "Open Sans", sans-serif;
 }
 .studentsect_title h1 {
   font-size: 50px;
   color: #000000;
+  font-family: "Roboto", sans-serif;
 }
 .studentsect_imgs {
   display: flex;
@@ -407,18 +433,20 @@ ul .registr {
 }
 .studentsect_item_title h3 {
   font-style: italic;
-  font-size: 21px;
+  font-size: 20px;
   color: #000000;
+  font-family: "Roboto", sans-serif;
 }
 .studentsect_item_title a {
   position: absolute;
   background-color: #ef6464;
-  padding: 3px 11px;
+  padding: 3px 8px;
   color: #fff;
-  font-size: 15px;
+  font-size: 14px;
   display: inline-block;
   bottom: 0;
   right: 0;
+  font-family: "Montserrat", sans-serif;
 }
 .studentsect_item_title {
   position: relative;
@@ -437,6 +465,7 @@ ul .registr {
   font-size: 17px;
   color: #a5a5a5;
   margin-bottom: 14px;
+  font-family: "Roboto", sans-serif;
 }
 .student_moreinfo a {
   font-size: 20px;
@@ -457,12 +486,14 @@ ul .registr {
 .student_name h1 {
   font-size: 21px;
   color: #000000;
+  font-family: "Roboto", sans-serif;
 }
 .student_name span {
   font-size: 16px;
   color: #a0a0a0;
   text-align: right;
   display: block;
+  font-family: "Open Sans", sans-serif;
 }
 .studentsect_item:hover {
   box-shadow: 0 4px 4px -2px gray;
@@ -474,6 +505,7 @@ ul .registr {
   padding: 11px 22px;
   color: #fff;
   display: inline-block;
+  font-family: "Roboto", sans-serif;
 }
 .studet_viewmore {
   text-align: center;
@@ -486,22 +518,26 @@ ul .registr {
   font-size: 17px;
   color: #2e7af4;
   margin-bottom: 5px;
+  font-family: "Open Sans", sans-serif;
 }
 .contact_title h1 {
   font-size: 47px;
   color: #000000;
   margin-bottom: 14px;
+  font-family: "Roboto", sans-serif;
 }
 .contact_title span {
-  font-size: 17px;
+  font-size: 15px;
   color: #a5a5a5;
+  font-family: "Open Sans", sans-serif;
 }
 .nextstep_name > h1 {
-  font-size: 47px;
+  font-size: 46px;
   color: #2e7af4;
   margin-top: 30px;
   max-width: 352px;
   margin-bottom: 35px;
+  font-family: "Roboto", sans-serif;
 }
 .first_number {
   height: 120px;
@@ -534,7 +570,8 @@ ul .registr {
   color: #a5a5a5;
   font-size: 17px;
   display: inline-block;
-  width: 437px;
+  width: 466px;
+  font-family: "Roboto", sans-serif;
 }
 .lastsect_width {
   width: 50%;
@@ -547,6 +584,7 @@ ul .registr {
   color: #000000;
   font-size: 20px;
   margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
 }
 #contactform {
   background-color: #f8f8f8;
@@ -559,6 +597,7 @@ ul .registr {
   padding: 22px 19px;
   outline: none;
   border: 0;
+  font-family: "Open Sans", sans-serif;
 }
 .forminput {
   margin-bottom: 20px;
@@ -577,6 +616,7 @@ ul .registr {
   color: #7d7979;
   outline: none;
   border: 0;
+  font-family: "Open Sans", sans-serif;
 }
 .forminput_flex {
   display: flex;
@@ -594,6 +634,7 @@ ul .registr {
   border: 0;
   cursor: pointer;
   margin-top: 25px;
+  font-family: "Roboto", sans-serif;
 }
 footer {
   background-color: #1e2734;
@@ -615,6 +656,7 @@ footer {
 .schooler_logo h1 {
   font-size: 30px;
   color: #fff;
+  font-family: "Montserrat", sans-serif;
 }
 .schooler_logo h1 span {
   color: #fff;
@@ -626,11 +668,13 @@ footer {
   font-size: 20px;
   max-width: 269px;
   display: block;
+  font-family: "Roboto", sans-serif;
 }
 .footer_icon h2 {
   font-size: 20px;
   color: #fff;
   margin: 14px 0px;
+  font-family: "Roboto", sans-serif;
 }
 .social_icon a > i {
   width: 36px;
@@ -645,9 +689,11 @@ footer {
 .company_list h3 {
   color: #ffffff;
   margin-bottom: 12px;
+  font-family: "Roboto", sans-serif;
 }
 .company_list li a {
   color: #fff;
+  font-family: "Montserrat", sans-serif;
 }
 .company_list li {
   display: block;
@@ -657,6 +703,7 @@ footer {
   font-size: 21px;
   color: #fff;
   margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
 }
 .form_gettouch input[type="text"] {
   outline: none;
@@ -672,6 +719,7 @@ footer {
   padding: 6px 8px;
   max-width: 100px;
   margin-top: 10px;
+  font-family: "Roboto", sans-serif;
 }
 .form_gettouch form {
   display: flex;
@@ -683,6 +731,7 @@ footer {
   font-size: 14px;
   color: #e1e1e1;
   padding: 10px;
+  font-family: "Montserrat", sans-serif;
 }
 /* internal page */
 header {
@@ -722,6 +771,7 @@ header {
 }
 .initial_navbar a {
   color: #7483eafa;
+  font-family: "Open Sans", sans-serif;
 }
 .initial_navbar a:hover {
   color: #013992;
@@ -741,6 +791,7 @@ header {
   background-color: #2e7af4;
   padding: 11px 25px;
   color: #fff;
+  font-family: "Roboto", sans-serif;
 }
 
 footer {
