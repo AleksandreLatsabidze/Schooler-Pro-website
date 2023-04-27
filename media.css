@@ -1,0 +1,141 @@
+@media only screen and (max-width: 1170px) {
+  .header_container {
+    padding: 0px 40px;
+  }
+  .navbar {
+    padding: 10px 0;
+  }
+  .headername {
+    padding-left: 7px;
+    font-size: 16px;
+  }
+  .navigation a {
+    font-size: 15px;
+  }
+  ul .registr {
+    padding: 8px 22px;
+    font-weight: normal;
+  }
+  .header_banner {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -90px;
+    left: 90px;
+  }
+  .header_banner h2 {
+    margin-bottom: 0px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .header_banner h1 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 55px;
+    width: 510px;
+    color: #8ca8f7;
+  }
+  .header_banner h3 {
+    font-size: 15px;
+    width: 528px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .text {
+    padding: 5px;
+  }
+  .flexslider {
+    height: 500px;
+  }
+  .flexslider .slides img {
+    height: 500px;
+    object-fit: cover;
+  }
+  .header_banner button {
+    border: 0px solid;
+  }
+  .first_sect {
+    margin-top: 20px;
+  }
+  .sect_info {
+    margin-left: 20px;
+    max-width: 571px;
+    padding: 5px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .header_container {
+    padding: 0px 10px;
+  }
+  .header_banner button {
+    border: 0px solid;
+  }
+  .first_sect {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .logoheader {
+    display: none;
+  }
+  .headername {
+    padding-left: 2px;
+    font-size: 10px;
+  }
+  .headertitle {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .navbar {
+    padding: 0px 0;
+  }
+  .header_container {
+    padding: 0px 3px;
+  }
+  .navigation ul li {
+    margin: 0 30px;
+    margin-right: 5px;
+  }
+  .navigation a {
+    font-size: 12px;
+  }
+  .navigation a {
+    font-size: 11px;
+  }
+  ul .registr {
+    padding: 4px 15px;
+    font-weight: normal;
+  }
+  .header_banner h2 {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .header_banner h1 {
+    font-size: 45px;
+    width: 417px;
+  }
+  .header_banner h3 {
+    font-size: 14px;
+    width: 461px;
+    font-weight: bold;
+    color: #393737;
+  }
+  .header_container {
+    background-color: #cbdaed;
+  }
+  .header_banner button {
+    font-size: 13px;
+    padding: 6px 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header_banner {
+    bottom: -50px;
+    left: 50px;
+  }
+}
+/* @media only screen and (max-width: 600px) {
+} */
