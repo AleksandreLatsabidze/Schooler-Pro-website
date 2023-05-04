@@ -1,7 +1,9 @@
-@media only screen and (max-width: 1170px) {
-  .header_container {
+@media only screen and (max-width: 1220px) {
+  .container {
     padding: 0px 20px;
   }
+}
+@media only screen and (max-width: 1170px) {
   .navbar {
     padding: 10px 0;
   }
@@ -16,13 +18,7 @@
     padding: 8px 22px;
     font-weight: normal;
   }
-  .header_banner {
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    bottom: -90px;
-    left: 90px;
-  }
+
   .header_banner h2 {
     margin-bottom: 0px;
     color: #ffffff;
@@ -33,12 +29,12 @@
     margin-top: 2px;
     margin-bottom: 2px;
     font-size: 55px;
-    width: 510px;
+    max-width: 510px;
     color: #8ca8f7;
   }
   .header_banner h3 {
     font-size: 15px;
-    width: 528px;
+
     margin-bottom: 20px;
     font-weight: bold;
     color: #fff;
@@ -80,7 +76,7 @@
   }
   .mainimg {
     position: relative;
-    margin-right: 50px;
+    /* margin-right: 50px; */
   }
   .mainimg > img {
     height: 450px;
@@ -88,12 +84,23 @@
   .graycube {
     height: 500px;
     width: 186px;
+    display: none;
+  }
+  .section_user {
+    margin-top: 40px;
+  }
+  .section_user h3 {
+    padding-top: 0px;
+  }
+  .section_user h1 {
+    font-size: 37px;
+  }
+  .sect_img img {
+    width: 150px;
+    margin-left: 26px;
   }
 }
 @media only screen and (max-width: 1024px) {
-  .header_container {
-    padding: 0px 10px;
-  }
   .header_banner button {
     border: 0px solid;
   }
@@ -101,66 +108,64 @@
     margin-top: 20px;
   }
 }
-@media only screen and (max-width: 992px) {
-  .logoheader {
-    display: none;
+
+@media only screen and (max-width: 890px) {
+  .logo {
+    width: 100%;
+    justify-content: center;
+  }
+  .navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navigation nav {
+    justify-content: center;
+  }
+
+  .navigation nav ul {
+    width: 100%;
+    justify-content: center;
+    margin: 6px 0px;
   }
   .headername {
-    padding-left: 2px;
-    font-size: 10px;
-  }
-  .headertitle {
-    font-size: 14px;
-    font-weight: bold;
-  }
-  .navbar {
-    padding: 0px 0;
-  }
-  .header_container {
-    padding: 0px 3px;
-  }
-  .navigation ul li {
-    margin: 0 30px;
-    margin-right: 5px;
-  }
-  .navigation a {
-    font-size: 12px;
-  }
-  .navigation a {
-    font-size: 11px;
-  }
-  ul .registr {
-    padding: 4px 15px;
-    font-weight: normal;
+    font-size: 13px;
   }
   .header_banner h2 {
-    font-size: 13px;
-    font-weight: bold;
+    font-size: 14px;
   }
   .header_banner h1 {
-    font-size: 45px;
-    width: 417px;
+    font-size: 36px;
   }
   .header_banner h3 {
-    font-size: 14px;
-    width: 461px;
-    font-weight: bold;
-    color: #393737;
+    font-size: 13px;
   }
-  .header_container {
-    background-color: #cbdaed;
+  .flexslider .slides img {
+    height: 300px;
+  }
+
+  .flexslider {
+    height: 300px;
+  }
+  header > .container {
+    top: 61%;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .header_banner h2 {
+    display: none;
+  }
+  .header_banner h1 {
+    font-size: 30px;
+  }
+  .header_banner h3 {
+    font-size: 11px;
   }
   .header_banner button {
-    font-size: 13px;
+    font-size: 15px;
     padding: 6px 18px;
   }
 }
-
-@media only screen and (max-width: 768px) {
-  .header_banner {
-    bottom: -50px;
-    left: 50px;
-  }
-}
-/* @media only screen and (max-width: 600px) {
-} */

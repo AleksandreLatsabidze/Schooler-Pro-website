@@ -27,6 +27,7 @@ header > .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .navbar {
   padding: 20px 0;
@@ -43,6 +44,10 @@ header > .container {
 .navigation ul li {
   margin: 0 15px;
 }
+.logo {
+  display: flex;
+  align-items: center;
+}
 .logo img {
   position: absolute;
   margin: 0px 5px;
@@ -54,7 +59,6 @@ header > .container {
   width: 40px;
   display: inline-block;
   height: 40px;
-  transform: translate(0px, 10px);
 }
 .headername {
   padding-left: 10px;
@@ -75,13 +79,17 @@ header > .container {
 .navigation nav ul {
   display: flex;
 }
-.navigation a {
+.navigation nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+nav a {
   text-decoration: none;
   color: #2e7af4;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
 }
-ul .registr {
+.registr {
   color: white;
   background-color: #2e7af4;
   font-size: 16px;
@@ -102,7 +110,7 @@ ul .registr {
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 75px;
-  width: 460px;
+  max-width: 460px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -115,7 +123,7 @@ ul .registr {
 }
 .header_banner h3 {
   font-size: 17px;
-  width: 500px;
+  max-width: 500px;
   margin-bottom: 30px;
   font-weight: 100;
   font-family: "Open Sans", sans-serif;
