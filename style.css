@@ -149,7 +149,6 @@ nav a {
   align-items: center;
 }
 .sect_info {
-  margin-left: -8px;
   max-width: 571px;
   padding: 10px;
 }
@@ -174,7 +173,7 @@ nav a {
 }
 .sect_paragrph {
   margin-bottom: 40px;
-  width: 586px;
+  max-width: 586px;
   font-size: 20px;
 }
 .mainimg {
