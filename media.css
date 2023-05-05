@@ -8,6 +8,34 @@
   .section_user {
     margin-top: 70px;
   }
+  .imgsect_info {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .imgs img {
+    width: 310px;
+    height: 240px;
+  }
+  .imgsect_info > span {
+    font-size: 19px;
+  }
+  .imgsect_info h3 {
+    font-size: 36px;
+  }
+  .imgsect_text {
+    margin-bottom: 27px;
+    font-size: 19px;
+  }
+  .imgsect_lasttext {
+    font-size: 19px;
+  }
+  .middle_img {
+    margin-left: 0px;
+  }
+  .imgsect_text,
+  .imgsect_lasttext {
+    width: inherit;
+  }
 }
 @media only screen and (max-width: 1170px) {
   .navbar {
@@ -101,6 +129,16 @@
   .sect_img img {
     width: 150px;
   }
+  .imgsect_info > span {
+    font-size: 17px;
+  }
+  .imgsect_info h3 {
+    font-size: 33px;
+  }
+  .imgsect_text,
+  .imgsect_lasttext {
+    width: inherit;
+  }
 }
 @media only screen and (max-width: 1024px) {
   .header_banner button {
@@ -108,6 +146,19 @@
   }
   .first_sect {
     margin-top: 20px;
+  }
+  .imgsect_info > span {
+    font-size: 16px;
+  }
+  .imgsect_info h3 {
+    font-size: 30px;
+  }
+  .imgsect_text,
+  .imgsect_lasttext {
+    width: inherit;
+  }
+  .imgs img {
+    margin-bottom: 45px;
   }
 }
 @media only screen and (max-width: 940px) {
@@ -122,6 +173,40 @@
   .section_user h3,
   h1 {
     text-align: center;
+  }
+  .imgs img {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  .childrens_sect {
+    display: inline-block;
+    padding-top: 60px;
+  }
+
+  .middle_img {
+    margin: 0px;
+  }
+  .imgs {
+    width: 310px;
+  }
+  .childrens_sect {
+    width: 100%;
+  }
+  .imgs {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .imgsect_text,
+  .imgsect_lasttext {
+    width: 100%;
+    max-width: 100%;
+  }
+  .imgsect_info {
+    text-align: center;
+    margin-top: 10px;
   }
 }
 
@@ -154,6 +239,9 @@
     width: 100%;
     text-align: center;
     margin-top: 20px;
+  }
+  .sect_info h3 {
+    text-align: center;
   }
 }
 @media only screen and (max-width: 600px) {
