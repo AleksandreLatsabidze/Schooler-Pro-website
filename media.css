@@ -208,6 +208,32 @@
     text-align: center;
     margin-top: 10px;
   }
+  .platform_number {
+    width: 50%;
+  }
+  .platform_title h3 {
+    font-size: 18px;
+  }
+  .platform_title h1 {
+    font-size: 40px;
+  }
+  .platformsect_last {
+    text-align: center;
+  }
+  .platformsect_lastflex h1 {
+    font-size: 38px;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .platformsect_lastflex {
+    display: block;
+  }
+  .platformsect_last {
+    padding: 40px 0px;
+  }
+  .platformsect_lastflex h3 {
+    font-size: 19px;
+  }
 }
 
 @media only screen and (max-width: 890px) {
@@ -242,6 +268,15 @@
   }
   .sect_info h3 {
     text-align: center;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .platform_number {
+    width: 100%;
+  }
+  .platformsect_text {
+    max-width: 100%;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 600px) {
