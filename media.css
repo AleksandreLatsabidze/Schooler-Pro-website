@@ -36,6 +36,23 @@
   .imgsect_lasttext {
     width: inherit;
   }
+  .studentsect_title {
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+  .studentsect_title h3 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .studentsect_title h1 {
+    font-size: 40px;
+  }
+  .studentsect_item {
+    margin: 0px 90px;
+  }
+  .studentsect_item_title h3 {
+    font-size: 19px;
+  }
 }
 @media only screen and (max-width: 1170px) {
   .navbar {
@@ -138,6 +155,13 @@
   .imgsect_text,
   .imgsect_lasttext {
     width: inherit;
+  }
+  .studentsect_item {
+    margin: 0px 80px;
+  }
+  .studentsect_item_title h3 {
+    margin-left: 10px;
+    font-size: 18px;
   }
 }
 @media only screen and (max-width: 1024px) {
