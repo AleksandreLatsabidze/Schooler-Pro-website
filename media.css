@@ -53,6 +53,19 @@
   .studentsect_item_title h3 {
     font-size: 19px;
   }
+  .studentsect_item {
+    margin: 0 auto;
+  }
+  .dis-none {
+    display: none;
+  }
+  .studentsect_title h1 {
+    font-size: 37px;
+  }
+  .studentsect_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
 }
 @media only screen and (max-width: 1170px) {
   .navbar {
@@ -162,6 +175,26 @@
   .studentsect_item_title h3 {
     margin-left: 10px;
     font-size: 18px;
+  }
+  .studentsect_item {
+    margin: 0 auto;
+  }
+  .dis-none {
+    display: none;
+  }
+  .studentsect_title h1 {
+    font-size: 34px;
+  }
+  .studentsect_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .studentsect_item_title h3 {
+    font-size: 18px;
+    margin-left: -30px;
+  }
+  .studentsect_item_title a {
+    padding: 1px 8px;
   }
 }
 @media only screen and (max-width: 1024px) {
