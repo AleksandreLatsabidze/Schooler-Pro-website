@@ -653,6 +653,7 @@ footer {
   padding: 45px 0px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .schooler_logo {
   display: flex;

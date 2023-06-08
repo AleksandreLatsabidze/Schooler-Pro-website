@@ -309,6 +309,27 @@
     width: 100%;
     text-align: center;
   }
+  .footer_icon,
+  .company_list,
+  .form_gettouch {
+    width: 50%;
+  }
+  .company_list_right {
+    text-align: right;
+  }
+  .form_gettouch input[type="text"] {
+    max-width: 200px;
+  }
+  .form_gettouch form {
+    align-items: flex-end;
+  }
+  .form_gettouch h1 {
+    text-align: right;
+  }
+  .footer_icon,
+  .company_list_right {
+    margin-bottom: 30px;
+  }
 }
 
 @media only screen and (max-width: 890px) {
@@ -397,6 +418,30 @@
   }
   .sect_img img {
     margin-left: 0px;
+  }
+  .footer_icon,
+  .company_list,
+  .form_gettouch {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .company_list_right {
+    text-align: center;
+  }
+  .form_gettouch form {
+    align-items: center;
+    max-width: 260px;
+    width: 100%;
+  }
+  .form_gettouch input[type="text"] {
+    max-width: 260px;
+    width: 100%;
+  }
+  .form_gettouch {
+    margin-top: 30px;
   }
 }
 @media only screen and (max-width: 420px) {
