@@ -761,7 +761,7 @@ footer {
 }
 .initial_navbar ul {
   list-style: none;
-  display: flex;
+
   border-bottom: 2px solid #2e7af4;
   font-size: 19px;
   margin-top: 55px;
@@ -773,6 +773,7 @@ footer {
 .initial_navbar li {
   margin: 0px 19px;
   margin-bottom: 6px;
+  display: inline-block;
 }
 .initial_navbar li:first-child {
   margin-left: 0px;

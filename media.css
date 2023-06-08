@@ -368,6 +368,9 @@
   .studentsect_item {
     width: 50%;
   }
+  .initial_navbar ul {
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 700px) {
   .platform_number {
