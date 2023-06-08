@@ -520,6 +520,7 @@ nav a {
 .last_sect {
   margin-top: 95px;
   display: flex;
+  flex-wrap: wrap;
 }
 .contact_title h3 {
   font-size: 17px;
@@ -569,16 +570,17 @@ nav a {
   color: #2e7af4;
   background-color: #c1d9ff;
   padding: 13px 16px;
-  display: inline-block;
   position: relative;
+  float: left;
+  margin-right: 15px;
 }
 .first_number > span {
-  margin-left: 12px;
+  display: block;
   color: #a5a5a5;
   font-size: 17px;
-  display: inline-block;
-  width: 466px;
   font-family: "Roboto", sans-serif;
+  max-height: 60px;
+  overflow: hidden;
 }
 .lastsect_width {
   width: 50%;

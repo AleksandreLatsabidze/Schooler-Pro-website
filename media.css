@@ -289,6 +289,26 @@
   .platformsect_lastflex h3 {
     font-size: 19px;
   }
+  .form_inputs {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .lastsect_width {
+    width: 100%;
+    padding-right: 0px;
+  }
+  .nextstep_name > h1 {
+    max-width: 100%;
+  }
+  .contact_title span {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .contact_title h3 {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 890px) {
