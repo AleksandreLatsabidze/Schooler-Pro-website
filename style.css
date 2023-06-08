@@ -820,3 +820,6 @@ footer {
 .flex-control-paging li a {
   background: #d1d1d1;
 }
+.graycube {
+  display: none;
+}

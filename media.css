@@ -47,18 +47,11 @@
   .studentsect_title h1 {
     font-size: 40px;
   }
-  .studentsect_item {
-    margin: 0px 90px;
-  }
+
   .studentsect_item_title h3 {
     font-size: 19px;
   }
-  .studentsect_item {
-    margin: 0 auto;
-  }
-  .dis-none {
-    display: none;
-  }
+
   .studentsect_title h1 {
     font-size: 37px;
   }
@@ -169,19 +162,12 @@
   .imgsect_lasttext {
     width: inherit;
   }
-  .studentsect_item {
-    margin: 0px 80px;
-  }
+
   .studentsect_item_title h3 {
     margin-left: 10px;
     font-size: 18px;
   }
-  .studentsect_item {
-    margin: 0 auto;
-  }
-  .dis-none {
-    display: none;
-  }
+
   .studentsect_title h1 {
     font-size: 34px;
   }
@@ -191,10 +177,22 @@
   }
   .studentsect_item_title h3 {
     font-size: 18px;
-    margin-left: -30px;
   }
   .studentsect_item_title a {
     padding: 1px 8px;
+  }
+  .blue_line {
+    display: none;
+  }
+  .studentsect_item_title {
+    padding-left: 0px;
+  }
+  .studentsect_item_title a {
+    position: relative;
+    margin-top: 5px;
+  }
+  .studentsect_item_title h3 {
+    margin-left: 0px;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -326,6 +324,9 @@
   .sect_info h3 {
     text-align: center;
   }
+  .studentsect_item {
+    width: 50%;
+  }
 }
 @media only screen and (max-width: 700px) {
   .platform_number {
@@ -398,5 +399,8 @@
   }
   .sect_img img {
     width: 130px;
+  }
+  .studentsect_item {
+    width: 100%;
   }
 }
